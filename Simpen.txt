@@ -7,38 +7,49 @@ string satuan[] = {"", "satu", "dua", "tiga", "empat", "lima", "enam", "tujuh", 
 string belasan[] = {"", "sebelas", "dua belas", "tiga belas", "empat belas", "lima belas", "enam belas", "tujuh belas", "delapan belas", "sembilan belas"};
 string puluhan[] = {"", "sepuluh", "dua puluh", "tiga puluh", "empat puluh", "lima puluh", "enam puluh", "tujuh puluh", "delapan puluh", "sembilan puluh"};
 
-string konversiSatuan(int angka) {
+string konversiSatuan(int angka)
+{
     return satuan[angka];
 }
 
-string konversiBelasan(int angka) {
+string konversiBelasan(int angka)
+{
     return belasan[angka - 10];
 }
 
-string konversiPuluhan(int angka) {
+string konversiPuluhan(int angka)
+{
     int puluhanRatus = angka / 100;
     int puluhanSisa = angka % 100;
 
-    if (puluhanRatus == 0) {
+    if (puluhanRatus == 0)
+    {
         return konversiSatuan(puluhanSisa);
-    } else {
+    }
+    else
+    {
         return satuan[puluhanRatus] + " ratus " + konversiSatuan(puluhanSisa);
     }
 }
 
-string konversiRibuan(int angka) {
+string konversiRibuan(int angka)
+{
     int ribuanRatus = angka / 1000;
     int ribuanSisa = angka % 1000;
 
-    if (ribuanRatus == 0) {
+    if (ribuanRatus == 0)
+    {
         return konversiPuluhan(ribuanSisa);
-    } else {
+    }
+    else
+    {
         return konversiSatuan(ribuanRatus) + " ribu " + konversiPuluhan(ribuanSisa);
     }
 }
 
-int main() {
-    int angka = 151252;
+int main()
+{
+    int angka = 15125;
 
     cout << "Konversi angka " << angka << " ke dalam kata: " << konversiRibuan(angka) << endl;
 
