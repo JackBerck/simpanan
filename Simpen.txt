@@ -1,31 +1,46 @@
-🌐 **AI in Healthcare: Steering Positive Change**
+#include <iostream>
+#include <string>
 
-🤖✨ _Unveiling the Revolutionary Potential of Artificial Intelligence Technology in the World of Healthcare_ ✨🤖
+using namespace std;
 
-🔬 **Exploring Precision Diagnosis**
-   - Artificial Intelligence aids in detecting diseases with high accuracy.
-   - Faster diagnosis for more effective medical responses.
-   - AI integration in medical scans for early identification of critical illnesses.
+string satuan[] = {"", "satu", "dua", "tiga", "empat", "lima", "enam", "tujuh", "delapan", "sembilan"};
+string belasan[] = {"", "sebelas", "dua belas", "tiga belas", "empat belas", "lima belas", "enam belas", "tujuh belas", "delapan belas", "sembilan belas"};
+string puluhan[] = {"", "sepuluh", "dua puluh", "tiga puluh", "empat puluh", "lima puluh", "enam puluh", "tujuh puluh", "delapan puluh", "sembilan puluh"};
 
-⚕️ **More Personalized Healthcare Services**
-   - Personalized care based on individual patient data.
-   - Increased efficiency in responding to each patient's healthcare needs.
-   - AI systems capable of understanding patient preferences and health history.
+string konversiSatuan(int angka) {
+    return satuan[angka];
+}
 
-🏥 **Innovation in Patient Care**
-   - Real-time monitoring of patients for proactive care.
-   - Better prediction of medical conditions and disease prevention.
-   - Utilization of sensors and AI technology for remote patient monitoring.
+string konversiBelasan(int angka) {
+    return belasan[angka - 10];
+}
 
-🌱 **A Better Future for Healthcare**
-   - Collaboration between AI and human medical professionals for holistic healthcare services.
-   - Driving innovation to improve the quality of life and life expectancy.
-   - Development of genetic therapies and personalized medications based on AI analysis.
+string konversiPuluhan(int angka) {
+    int puluhanRatus = angka / 100;
+    int puluhanSisa = angka % 100;
 
-👩‍⚕️🤖 **Let's Together Shape a Brighter Future in Healthcare with AI!** 🌍💙
+    if (puluhanRatus == 0) {
+        return konversiSatuan(puluhanSisa);
+    } else {
+        return satuan[puluhanRatus] + " ratus " + konversiSatuan(puluhanSisa);
+    }
+}
 
-_[Organization/Event Logo]_
-_[Date & Venue of the Event]_
-_[Contact Information/Website]_
+string konversiRibuan(int angka) {
+    int ribuanRatus = angka / 1000;
+    int ribuanSisa = angka % 1000;
 
-#AIHealthcare #SmartInnovation #RevitalizingHealthcare
+    if (ribuanRatus == 0) {
+        return konversiPuluhan(ribuanSisa);
+    } else {
+        return konversiSatuan(ribuanRatus) + " ribu " + konversiPuluhan(ribuanSisa);
+    }
+}
+
+int main() {
+    int angka = 151252;
+
+    cout << "Konversi angka " << angka << " ke dalam kata: " << konversiRibuan(angka) << endl;
+
+    return 0;
+}
