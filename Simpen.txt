@@ -1,57 +1,69 @@
-#include <iostream>
-#include <string>
+1. Untuk melaksanakan perintah-perintah I/O, CPU akan mengeluarkan sebuah alamat bagi modul I/O dan perangkat peripheralnya sehingga terspesifikasi secara khusus dan sebuah perintah I/O yang dilakukan. Terdapat empat klasifikasi perintah I/O, yaitu kecuali d. Perintah process
 
-using namespace std;
+2. Penyimpanan yang memiliki kapasitas lebih besar dan pada inboard memory dan bersifat non-volatile, serta digunakan dalam kurun waktu tertentu, disebut d. Outboard storage
 
-string satuan[] = {"", "satu", "dua", "tiga", "empat", "lima", "enam", "tujuh", "delapan", "sembilan"};
-string belasan[] = {"", "sebelas", "dua belas", "tiga belas", "empat belas", "lima belas", "enam belas", "tujuh belas", "delapan belas", "sembilan belas"};
-string puluhan[] = {"", "sepuluh", "dua puluh", "tiga puluh", "empat puluh", "lima puluh", "enam puluh", "tujuh puluh", "delapan puluh", "sembilan puluh"};
+3. Konsep perencanaan dan struktur pengoperasian dasar dari suatu sistem komputer disebut b. Arsitektur Komputer
 
-string konversiSatuan(int angka)
-{
-    return satuan[angka];
-}
+4. Ciri-ciri dari CISC (Complex Instruction Set Computer), kecuali c. Transistor digunakan untuk menyimpan instruksi-instruksi kompleks
 
-string konversiBelasan(int angka)
-{
-    return belasan[angka - 10];
-}
+5. Pada eksekusi instruksi dalam meningkatkan kecepatan arsitektur RISC berusaha menurunkan nilai b. S dan T
 
-string konversiPuluhan(int angka)
-{
-    int puluhanRatus = angka / 100;
-    int puluhanSisa = angka % 100;
+6. Jenis memori yang digunakan pada sistem yang menggunakan Pentium, disebut b. DDR (Double Data Rate)
 
-    if (puluhanRatus == 0)
-    {
-        return konversiSatuan(puluhanSisa);
-    }
-    else
-    {
-        return satuan[puluhanRatus] + " ratus " + konversiSatuan(puluhanSisa);
-    }
-}
+7. SISD (Single Instruction, Single Data) merupakan salah satu dari 4 model komputasi pada parallel processing, dimana model ini bekerja dengan cara a. Memanfaatkan satu prosesor
 
-string konversiRibuan(int angka)
-{
-    int ribuanRatus = angka / 1000;
-    int ribuanSisa = angka % 1000;
+8. CD (compact disc) juga disebut dengan a. Laser optical disc
 
-    if (ribuanRatus == 0)
-    {
-        return konversiPuluhan(ribuanSisa);
-    }
-    else
-    {
-        return konversiSatuan(ribuanRatus) + " ribu " + konversiPuluhan(ribuanSisa);
-    }
-}
+9. Peralatan antarmuka bagi sistem bus atau switch sentral dan mengontrol satu atau lebih perangkat peripheral disebut b. Modul I/O
 
-int main()
-{
-    int angka = 15125;
+10. Sebuah teknologi dalam penyimpanan data yang digunakan untuk meminimalkan kesalahan pada saat penyimpanan dan pembacaan data dengan menggunakan redundansi disebut b. RAID
 
-    cout << "Konversi angka " << angka << " ke dalam kata: " << konversiRibuan(angka) << endl;
+11. Secara umum fungsi saluran bus dikatagorikan menjadi tiga bagian yaitu d. Saluran Data, Saluran alamat, dan Saluran kontrol
 
-    return 0;
-}
+12. Dalam RISC Pipelining terdapat 3 fase operasi load dan store, kecuali c. Melakukan operasi ALU dengan input dan output register
+
+13. Terdapat 4 macam cara untuk mengakses memori, salah satunya adalah direct access. Yang merupakan karakteristik direct access yaitu b. Setiap blok dan record memiliki alamat unik berdasarkan lokasi fisiknya
+
+14. Klasifikasi Komputer menurut Flyyn yaitu b. SISD,SIMD,MISD,MIMD
+
+15. Jenis random akses yang memungkinkan perbandingan lokasi bit yang diinginkan untuk pencocokan disebut c. Associative access
+
+16. Dibawah ini yang merupakan ciri-ciri dari RISC adalah d. Meminimumkan jumlah perintah yang diperlukan untuk mengerjakan pekerjaan tetapi rumit
+
+17. Perintah control dalam I/O digunakan untuk a. Menguji berbagai kondisi status modul I/O dan peripheralnya
+
+18. Command Decoding merupakan c. bahwa peralatan atau komponen penyusun komputer dapat dihubungi atau dipanggil maka harus memiliki alamat yang unik
+
+19. Yang bukan merupakan proses fungsi komunikasi antara CPU dan Modul I/O adalah d. Address Recognition
+
+20. Yang bukan merupakan karakteristik umum dari dik RAID adalah b. Terdiri dari disk-disk yang berkapasitas besar dan hanya menyimpan data sementara.
+
+21. Register berfungsi sebagai c. penyimpan internal bagi CPU
+
+22. Bagian yang terhubung dengan komponen pelaksanaan dan inter koneksi antar komponen penyusun sistem komputer dalam melaksanakan aspek arsitekturnya disebut a. Organisasi Komputer
+
+23. Main memory berfungsi untuk a. Media penyimpanan data yang berkaitan dengan CPU atau perangkat I/O
+
+24. Struktur interkoneksi akan bergantung pada d. Jenis sistem dan karakteristik saluran data
+
+25. Berikut yang termasuk fungsi modul input/output, kecuali b. Mengontrol penggunaan memori
+
+26. Semakin menurunnya hirarki memori maka hal yang akan terjadi ialah c. Penurunan frekuensi akses memori oleh CPU
+
+27. Dibawah ini yang tidak termasuk dalam contoh dari arsitektur komputer adalah c. Mekanisme I/O
+
+28. Dibawah ini yang tidak termasuk contoh aspek organisasi adalah d. Mekanisme Input
+
+29. Sistem komputer paralel dibedakan menjadi dua yaitu c. Shared memory dan distributed memory
+
+30. Teknik yang digunakan CPU dalam menangani program interupsi dengan menggunakan hardware poll dan seluruh modul I/O tersambung dalam saluran interupsi CPU secara melingkar yaitu b. Daisy Chain
+
+31. Suatu peristiwa yang menyebabkan eksekusi satu program ditunda dan program lain yang dieksekusi disebut b. Interupsi
+
+32. Memori yang dapat diakses langsung oleh prosesor, disebut d. RAM Memori
+
+33. Sistem koneksi dari BUS yang menghitung komponen inter CPU yaitu a. CU (Control Unit)
+
+34. Ada tiga skema klasifikasi arsitektural sistem komputer, yaitu b. Hand, Feng, Flynn
+
+35. System interconnection berfungsi untuk c. Menghubungkan ke CPU, memori utama dan I/O
