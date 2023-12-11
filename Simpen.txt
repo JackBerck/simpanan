@@ -8,7 +8,7 @@
 
 5. Pada eksekusi instruksi dalam meningkatkan kecepatan arsitektur RISC berusaha menurunkan nilai b. S dan T
 
-6. Jenis memori yang digunakan pada sistem yang menggunakan Pentium, disebut b. DDR (Double Data Rate)
+6. Jenis memori yang digunakan pada sistem yang menggunakan Pentium, disebut d. EDORAM (Extended Data Out RAM) *Intel Pentium Generasi Pertama
 
 7. SISD (Single Instruction, Single Data) merupakan salah satu dari 4 model komputasi pada parallel processing, dimana model ini bekerja dengan cara a. Memanfaatkan satu prosesor
 
@@ -34,7 +34,7 @@
 
 18. Command Decoding merupakan c. bahwa peralatan atau komponen penyusun komputer dapat dihubungi atau dipanggil maka harus memiliki alamat yang unik
 
-19. Yang bukan merupakan proses fungsi komunikasi antara CPU dan Modul I/O adalah d. Address Recognition
+19. Yang bukan merupakan proses fungsi komunikasi antara CPU dan Modul I/O adalah b. Error Reporting
 
 20. Yang bukan merupakan karakteristik umum dari dik RAID adalah b. Terdiri dari disk-disk yang berkapasitas besar dan hanya menyimpan data sementara.
 
@@ -44,7 +44,7 @@
 
 23. Main memory berfungsi untuk a. Media penyimpanan data yang berkaitan dengan CPU atau perangkat I/O
 
-24. Struktur interkoneksi akan bergantung pada d. Jenis sistem dan karakteristik saluran data
+24. Struktur interkoneksi akan bergantung pada b. Jenis data dan karakteristik pertukaran data
 
 25. Berikut yang termasuk fungsi modul input/output, kecuali b. Mengontrol penggunaan memori
 
@@ -60,7 +60,7 @@
 
 31. Suatu peristiwa yang menyebabkan eksekusi satu program ditunda dan program lain yang dieksekusi disebut b. Interupsi
 
-32. Memori yang dapat diakses langsung oleh prosesor, disebut d. RAM Memori
+32. Memori yang dapat diakses langsung oleh prosesor, disebut a. Register Memori
 
 33. Sistem koneksi dari BUS yang menghitung komponen inter CPU yaitu a. CU (Control Unit)
 
