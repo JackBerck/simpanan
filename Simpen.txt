@@ -1,1 +1,42 @@
-https://drive.google.com/drive/folders/1LT5U8tWwCWarOHqECtOrcMQ5alxsaGk0
+{
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "C_Cpp.default.compilerPath": "C:\\msys64\\mingw64\\bin\\gcc.exe",
+  "cmake.additionalCompilerSearchDirs": [
+    "C:/msys64/mingw32/bin",
+    "C:/msys64/mingw64/bin",
+    "C:/msys64/clang32/bin",
+    "C:/msys64/clang64/bin",
+    "C:/msys64/clangarm64/bin",
+    "C:/msys64/ucrt64/bin"
+  ],
+  "cmake.configureOnOpen": true,
+  "debug.onTaskErrors": "debugAnyway",
+  "code-runner.runInTerminal": true,
+  "liveServer.settings.CustomBrowser": "chrome",
+  "editor.inlineSuggest.enabled": true,
+  "explorer.confirmDelete": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.inlineSuggest.showToolbar": "always",
+  "explorer.confirmDragAndDrop": false,
+  "editor.unicodeHighlight.allowedCharacters": {
+    "‎": true
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "prettier.resolveGlobalModules": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
