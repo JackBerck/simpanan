@@ -1,42 +1,114 @@
+#include <iostream>
+#include <vector>
+#include <stdlib.h>
+
+using namespace std;
+struct Tugas
 {
-  "liveServer.settings.donotShowInfoMsg": true,
-  "editor.linkedEditing": true,
-  "editor.minimap.enabled": false,
-  "C_Cpp.default.compilerPath": "C:\\msys64\\mingw64\\bin\\gcc.exe",
-  "cmake.additionalCompilerSearchDirs": [
-    "C:/msys64/mingw32/bin",
-    "C:/msys64/mingw64/bin",
-    "C:/msys64/clang32/bin",
-    "C:/msys64/clang64/bin",
-    "C:/msys64/clangarm64/bin",
-    "C:/msys64/ucrt64/bin"
-  ],
-  "cmake.configureOnOpen": true,
-  "debug.onTaskErrors": "debugAnyway",
-  "code-runner.runInTerminal": true,
-  "liveServer.settings.CustomBrowser": "chrome",
-  "editor.inlineSuggest.enabled": true,
-  "explorer.confirmDelete": false,
-  "security.workspace.trust.untrustedFiles": "open",
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
-  "editor.inlineSuggest.showToolbar": "always",
-  "explorer.confirmDragAndDrop": false,
-  "editor.unicodeHighlight.allowedCharacters": {
-    "‎": true
-  },
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "prettier.resolveGlobalModules": true,
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[cpp]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools"
-  },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+    string deskripsi;
+    bool selesai;
+};
+
+int main()
+{
+    vector<Tugas> daftarTugas;
+
+    char pilihan;
+    do
+    {
+        cout << "Menu:\n";
+        cout << "1. Tambahkan tugas\n";
+        cout << "2. Tampilkan daftar tugas\n";
+        cout << "3. Tandai tugas selesai\n";
+        cout << "4. Hapus tugas\n";
+        cout << "5. Keluar\n";
+        cout << "Pilih menu (1/2/3/4/5): ";
+
+        cin >> pilihan;
+        system("cls");
+        switch (pilihan)
+        {
+        case '1':
+        {
+            string deskripsi;
+
+            cout << "Masukkan deskripsi tugas: ";
+            cin.ignore();
+            getline(cin, deskripsi);
+
+            Tugas tugasBaru = {deskripsi, false};
+            daftarTugas.push_back(tugasBaru);
+            cout << "Tugas ditambahkan.\n";
+
+            break;
+        }
+        case '2':
+        {
+            if (daftarTugas.empty())
+            {
+                cout << "Daftar tugas kosong.\n";
+            }
+            else
+            {
+                cout << "Daftar Tugas:\n";
+                for (size_t i = 0; i < daftarTugas.size(); ++i)
+                {
+                    cout << i + 1 << ". ";
+                    if (daftarTugas[i].selesai)
+                    {
+                        cout << "[Selesai] ";
+                    }
+                    cout << daftarTugas[i].deskripsi << endl;
+                }
+            }
+        }
+        break;
+        case '3':
+        {
+            int indeks_tugas;
+            cout << "Masukkan nomor tugas yang sudah selesai: ";
+            cin >> indeks_tugas;
+
+            if (indeks_tugas > 0 && indeks_tugas <= daftarTugas.size())
+            {
+                daftarTugas[indeks_tugas - 1].selesai = true;
+                cout << "Tugas selesai ditandai.\n";
+            }
+            else
+            {
+                cout << "Nomor tugas tidak valid.\n";
+            }
+
+            break;
+        }
+
+        case '4':
+        {
+            int indeks_tugas;
+            cout << "Masukkan nomor tugas yang ingin dihapus: ";
+            cin >> indeks_tugas;
+
+            if (indeks_tugas > 0 && indeks_tugas <= daftarTugas.size())
+            {
+                daftarTugas.erase(daftarTugas.begin() + indeks_tugas - 1);
+                cout << "Tugas dihapus.\n";
+            }
+            else
+            {
+                cout << "Nomor tugas tidak valid.\n";
+            }
+            break;
+        }
+
+        case '5':
+            cout << "Terima kasih, sampai jumpa lagi!\n";
+
+            break;
+
+        default:
+            cout << "Menu tidak valid. Silakan pilih 1, 2, 3, 4, atau 5.\n";
+        }
+    } while (pilihan != '5');
+
+    return 0;
 }
