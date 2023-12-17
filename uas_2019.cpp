@@ -27,27 +27,28 @@ Jenis-jenis rekursif:
 
 using namespace std;
 
+// a.
 struct Koordinat
 {
     int x;
     int y;
 };
 
+// c.
 void gradien(Koordinat a, Koordinat b)
 {
     int m = (b.y - a.y) / (b.x - a.x);
     cout << m;
 }
 
+// d.
 int main()
 {
+    // b. 
     Koordinat a;
     a = {1, 2};
-    // cin >> a.x >> a.y;
-
     Koordinat b;
     b = {3, 4};
-    // cin >> b.x >> b.y;
 
     gradien(a, b);
 
