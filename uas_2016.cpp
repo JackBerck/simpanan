@@ -35,12 +35,14 @@ int main()
 
 using namespace std;
 
+// a.
 struct Koordinat
 {
     int x;
     int y;
 };
 
+// b.
 void gradien(Koordinat a, Koordinat b)
 {
     int m = (b.y - a.y) / (b.x - a.x);
@@ -55,6 +57,7 @@ int main()
     Koordinat b;
     cin >> b.x >> b.y;
 
+    // c.
     gradien(a, b);
 
     return 0;
