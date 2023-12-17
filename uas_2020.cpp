@@ -4,18 +4,31 @@
 
 using namespace std;
 
-void Tambah(float A, float B, float C)
+// a.
+struct Point
 {
-    C = A + B;
-    cout << C;
+    int x;
+    int y;
+};
+
+// b.
+void Tambah(Koordinat a, Koordinat b, Koordinat c)
+{
+    c.x = a.x + b.x;
+    c.y = a.y + b.y;
+    // c.
+    cout << "Koordinat c: c{" << c.x << ", " << c.y << "}":
 }
 
 int main()
-{
-    int x, y;
-    float A = 3.4, B = 5.7, C;
+{ 
+    Koordinat a;
+    a = {3, 4};
+    Koordinat b;
+    b = {5, 7};
+    Koordinat c;
 
-    Tambah(A, B, C);
+    gradien(a, b, c);
 
     return 0;
 }
