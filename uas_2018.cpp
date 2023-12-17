@@ -1,3 +1,9 @@
+// Soal 1
+a. Pointer adalah variabel yang menyimpan alamat memori dari variabel lain sehingga dapat mengakses atau memanipulasi nilai yang disimpan di lokasi memori tertentu.
+b. Fungsi dipanggil dengan menggunakan metode "call by value" yaitu nilai variabel yang dikirim sebagai argumen ke fungsi tersebut disalin ke dalam parameter fungsi sehingga fungsi tersebut tidak memengaruhi nilai variabel di luar fungsi.
+c. Fungsi dipanggil menggunakan "call by reference" alamat memori variabel yang dikirim sebagai argumen ke fungsi disalin ke dalam parameter fungsi. Oleh karena itu, perubahan pada parameter fungsi memengaruhi nilai variabel di luar fungsi.
+
+
 // Soal 2
 
 #include <iostream>
