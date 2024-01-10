@@ -1,8 +1,2 @@
-angkatan aktif
-https://forms.gle/zD3sr8QsJWDGYSSX6
-
-dpo
-https://forms.gle/3pNv9q6YieRn1Srq6
-
-hmif
-https://forms.gle/NVJJr8sRBsLb4vyn9
+bab 2 tinjauan pustaka
+jenis skincare, jenis kulit wajah, metode forward chaining, sistem pakar, website, html, css, js, python, api
