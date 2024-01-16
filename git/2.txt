@@ -1,0 +1,38 @@
+branch dan merge
+branch, pembuatan cabang bebas di dalam commit commit kita, hal ini digunakan ketika bekerja dalam tim atau menambahkan beberapa fitur baru yang masih diragukan
+git branch -> akan menampilkan beberapa branch yang telah dibuat beserta peletakan head yang ditandai dengan bintang
+
+*ketika ada perubahan dalam file bisa langsung git commit -am "pesan"
+-a artinya add
+-m artinya message
+
+ketika kita membuat repo maka akan ada branch master secara otomatis dan secara otomatis juga head nya akan menuju ke branch master sesuai dengan perubahan
+
+jika ingin membuat branch baru maka lakukan perintah berikut
+git branch namabranch
+namabranch nanti akan ada branch baru dicommit yang sama
+
+*tambahan cara membuat graph
+git log -all --decorate --oneline --graph
+*cara membuat alias biar mempercepat command
+alias namaalias = "perintahnya apa"
+
+cara berpindah branch
+git checkout namabranch
+
+cara menggabungkan branch atau merge
+terdapat 2 jenis merge
+1. fast forward merge
+2. three way merge
+
+fast forward merge terjadi ketika branch yang kita gabungkan itu berada dalam jalur langsung atau direct path
+1. pindahkan dulu headnya ke dalam branch yang ingin kita merge
+2. lalu lakukan merge
+git merge branchyangingindimerge
+3. kalau sudah tidak butuh branch yang sudah dimerge, tinggal jalankan perintah berikut untuk menghapus branch
+git branch -d namabranch -> harus dimerge dulu baru bisa dihapus
+*kalau git branch -D namabranch -> tanpa dimerge bisa dihapus
+4. untuk melihat branch yang sudah dimerge
+git branch --merged
+
+three way merge, sama dengan fast forward, namun akan menghasilkan commit baru sehingga harus dilakukan commit juga dan memberikan pesan pada commit tersebut
