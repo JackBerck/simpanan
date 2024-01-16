@@ -1,0 +1,49 @@
+pengenalan git
+
+perintah dalam git
+git --version -> untuk memeriksa apakah git sudah terinstall atau belum dan melihat versi installasinya dalam device kita
+git -> untuk menampilkan beberapa perintah yang ada di dalam git beserta kegunaannya perintah perintah tersebut
+
+git command (local)
+git init -> untuk menginisialisasi repo git di device
+git add -> untuk menambahkan file ke dalam suatu staging area
+git status -> untuk mengetahui status repo (file baru, berubah, hilang dll apapun yang terjadi dalam repo)
+git commit -> untuk melakukan commit
+git config -> untuk melakukan atau memasukkan konfigurasi ke dalam gitnya
+git branch -> untuk membuat branch
+git help -> untuk melakukan bantuan jika diperlukan
+git log -> untuk melihat keseluruhan perubahan yang telah terjadi di dalam repo
+git log -3 -> 3 perubahan terakhir
+git log --namafile.html -> melihat perubahan file tertentu
+git checkout 5digitpertamadaricommithashnya -> mengembalikan ke suatu commit atau keadaan tertentu sesuai dengan lokasi hashnya keseluruhan
+git checkout 5digitpertamadaricommithashnya --namafile.html -> mengembalikan ke keadaan tertentu sesuai dengan lokasi hashnya yang terjadi pada suatu file saja
+
+3 area pada repo git
+working tree -> folder tempat bekerja atau file file berada yang ada di dalam proyek
+staging area -> untuk memberi tahu git bahwa sudah melakukan perubahan
+history -> riwayat git
+*staging area dan history akan tersimpan ke dalam folder .git 
+dari working tree di git add menuju ke staging area, dari staging area dilakukan git commit menuju history
+
+pwd -> print working directory, agar tahu lokasi folder yang sedang berada di dalam cmd
+ls -> untuk mengetahui folder atau file yang berada di dalam folder yang sedang digunakan
+clear -> untuk membersihkan cmd
+cd -> change directory, pindah folder atau direktori pada cmd agar digunakan
+(contoh: cd dekstop/study)
+
+step by step
+1. git init
+*ketika membuat atau memodifikasi folder atau file lalu disave, hal tersebut hanya berlaku pada file system seperti biasa, untuk gitnya belum berlaku
+2. git status
+*melihat informasi
+3. git add namafile.html
+*git add . -> untuk menambahkan keseluruhan file atau folder yang berubah ke dalam staging area
+4. git status
+*melihat informasi
+*tambahan jika ingin ada file yang tidak di staging, bisa lakukan perintah: git rm --cached namafile.html
+5. git commit -> jika commitnya panjang sehingga komentar atau pesan panjang juga
+git commti -m "pesannya apa aja" -> jika commitnya pendek sehingga komentar atau pesan pendek juga
+*namun sebelum commit, lakukan inisialisasi akun git kita, sehingga kita memberikan data kita
+git config --global user.email "email@email.com"
+git config --global user.name "nama"
+sudah selesai, jika ada perubahan dalam file tinggal balik ke step 3 dan seterusnya
