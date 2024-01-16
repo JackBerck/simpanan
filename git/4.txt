@@ -1,0 +1,33 @@
+git remote adalah repo yang sudah dibuat di local sebelumnya diduplikat ke tempat lain, seperti contoh di internet atau git hub di commit ke dalam git hub
+
+hal yang pertama dilakukan adalah membuat akun dan membuat repository di git hub
+setelah itu bisa mengkloning repo tersebut dengan menyalin link nya melalui https dan jalankan perintah clone
+git clone linkrepogit
+
+git remote akan memunculkan origin, karena secara default remote tersebut harus mempunyai nama, sehingga secara default nama remotenya adalah origin
+
+git remote -v akan menampilkan data data yang lebih detail
+
+setelah semua seperti biasa memodifikasi repo tersebut menggunakan perintah biasa seperti git add, git commit, git status, dll
+
+setelah semuanya sudah berubah repo yang ada di local bisa langsung di commit ke repo git hubnya menggunakan perintah berikut agar tersinkronisasi repo local dan repo githubnya 
+git push
+*jika disuruh memasukkan akun git hub tinggal masukkan saja
+
+kalau bisa user name dan email yang ada di dalam git dan git hub disesuaikan agar sama kalau tidak sama bisa diganti menggunakan perintah
+git config --global user.name "Nama Saya"
+git config --global user.email "email@saya.com"
+bisa juga di local kalau tidak mau di global semua file tinggal ganti local
+
+kalau sebelumnya menclone repo lewat git hub terlebih dahulu kalau sekarang lewat git dulu
+pertama buat direktori biasa bikin file terus seperti biasa perintah git init, git add, dll
+kalau sudah semua tinggal tetap bikin repositori baru atau pakai yang sudah ada (mungkin bisa tapi disarankan membuat baru terlebih dahulu)
+akan tetapi untuk yang readme nya jangan diceklis kalau untuk cara yang ini, setelah itu copy perintah lalu paste ke git yang perintahnya
+git remote add origin (nama origin bisa diganti) linkgitrepo (https://github.com/JackBerck/cekgitlagi.git)
+
+namun nantinya ada kedepannya suatu momen dimana di dalam repo git hub dan di dalam repo git local akan bertabrakan dikarenakan terdapat perubahan pada baris yang sama
+untuk mengatasi hal tersebut lakukan perintah
+git pull
+lalu lakukan perubahan manual merge conflict seperti yang sebelumnya dan lakukan commit push seperti biasa lagi
+
+git log --all --decorate --oneline --graph
