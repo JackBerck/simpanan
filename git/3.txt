@@ -1,0 +1,8 @@
+merge conflict adalah merge yang dibuat terjadi konflik dikarenakan terdapat 2 branch mengerjakan baris yang sama dalam 1 repo sehingga secara otomatis gitnya tidak dapat melakukan merge dan harus resolve secara manual kita sendiri
+
+kita memilih skrip yang mau dimerge, mau yang dibranch a atau b atau mungkin bisa diedit ulang
+
+ketika melakukan perubahan file dalam vs code nantinya akan terdapat simbol M berwarna oren yang artinya modified dan disarankan kalau sudah selesai memodifikasi file tersebut dilakukan git add git commit
+
+ada satu kondisi unik dimana kita dapat melakukan heading pada commit bukan pada branch, yaitu dengan cara melakukan checkout pada commit
+git checkout kodehashnyacommit
