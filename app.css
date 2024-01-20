@@ -1,0 +1,92 @@
+/* Reset Default Style */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Body */
+
+body {
+  background-color: #b4d4ff;
+}
+
+/* Title */
+
+.title {
+  margin: 30px;
+}
+
+.title h1 {
+  font-family: "Schoolbell", cursive;
+  font-size: 4rem;
+  text-align: center;
+}
+
+/* Tic Tac Toe Board Game */
+
+.tic-tac-toe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 50vw;
+  height: 60vh;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+}
+.tic-tac-toe::before {
+  content: "";
+  background-color: inherit;
+  filter: blur(5px);
+  z-index: -1;
+}
+
+.game-board {
+  height: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.game-board .board {
+  flex-grow: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-board .status {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 1rem;
+}
+
+.game-board .board .row {
+  display: flex;
+  width: 100%;
+}
+
+.game-info {
+  flex-grow: 1;
+}
+
+.square {
+  width: 70px;
+  height: 70px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: white;
+  border: 1px solid black;
+}
