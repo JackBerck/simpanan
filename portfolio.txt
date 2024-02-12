@@ -1,0 +1,149 @@
+<section id="my-tech-stack" class="my-tech-stack mt-4">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 col-sm-12">
+              <div class="my-tech-stack-card">
+                <div class="my-tech-stack-header">
+                  <div class="section-title text-center">
+                    <span>My Tech Stack</span>
+                  </div>
+                </div>
+                <div class="my-tech-stack-body">
+                  <div class="container-fluid">
+                    <div class="row text-center">
+                      <div class="col-md-2 col-6 tech-card">
+                        <img
+                          src="./src/img/tech-stack/html.svg"
+                          alt="HTML"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <div class="col-md-2 col-6 tech-card">
+                        <img
+                          src="./src/img/tech-stack/css.svg"
+                          alt="CSS"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <div class="col-md-2 col-6 tech-card">
+                        <img
+                          src="./src/img/tech-stack/js.svg"
+                          alt="JavaScript"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <div class="col-md-2 col-6 tech-card">
+                        <img
+                          src="./src/img/tech-stack/php.svg"
+                          alt="PHP"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <div class="col-md-2 col-6 tech-card">
+                        <img
+                          src="./src/img/tech-stack/bootstrap.svg"
+                          alt="Bootstrap"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <div class="col-md-2 col-6 tech-card">
+                        <img
+                          src="./src/img/tech-stack/mongodb.svg"
+                          alt="Mongo DB"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <div class="col-md-2 col-6 tech-card">
+                        <img
+                          src="./src/img/tech-stack/microsoft.svg"
+                          alt="Microsoft Office"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <div class="col-md-2 col-6 tech-card">
+                        <img
+                          src="./src/img/tech-stack/canva.svg"
+                          alt="Canva"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <div class="col-md-2 col-6 tech-card">
+                        <img
+                          src="./src/img/tech-stack/nodejs.svg"
+                          alt="Node JS"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <div class="col-md-2 col-6 tech-card">
+                        <img
+                          src="./src/img/tech-stack/reactjs.svg"
+                          alt="React JS"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <div class="col-md-2 col-6 tech-card">
+                        <img
+                          src="./src/img/tech-stack/react-query.svg"
+                          alt="React Query"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <div class="col-md-2 col-6 tech-card">
+                        <img
+                          src="./src/img/tech-stack/nextjs2.svg"
+                          alt="Canva"
+                          class="img-fluid"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+        </div>
+      </section>
+
+
+.my-tech-stack-card {
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid #393939;
+  border-bottom: 2px solid #393939;
+  border-radius: 0;
+  background: #c0c0c0;
+}
+
+.my-tech-stack-header {
+  background: #000181;
+  color: white;
+  position: relative;
+  padding: 4px;
+  border: 2px solid #bdbdbd;
+  font-size: 1.5rem;
+}
+
+.my-tech-stack-header span {
+  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+
+.my-tech-stack-body {
+  font-size: 1.1rem;
+}
+
+.tech-card {
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+  border-top: 2px solid #393939;
+  border-left: 2px solid #393939;
+  border-radius: 0;
+  background: white;
+}
+
+@media (max-width: 767.98px) {
+  .my-tech-stack-memes {
+    display: none;
+  }
+}
