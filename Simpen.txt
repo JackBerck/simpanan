@@ -2,6 +2,9 @@ https://docs.google.com/document/d/1wYvnAUHDmVyYK_1RXWE041BosCIwWEczYEzNxZMqdlo/
 https://drive.google.com/file/d/1u798VUXV7SZxU8UmE54Jt9Y7n_RiydY-/view?usp=sharing
 Bagaimana mendesain dan mengimplementasikan sistem pakar dengan metode forward chaining untuk mengidentifikasi jenis kulit wajah berdasarkan ciri fisik yang dialami?
 Bagaimana mengintegrasikan analisis data kandungan zat yang tepat untuk setiap jenis kulit wajah dalam sistem pakar guna merekomendasikan skincare yang sesuai?
+https://meet.google.com/cae-uryc-mkc
+
+
 Apa dampak penggunaan sistem pakar dalam memilih skincare pada pemahaman dan kesadaran pengguna terhadap perawatan kulit wajah?
 
 
