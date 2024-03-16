@@ -1,0 +1,2 @@
+cara mengatasi nodemon agar bisa ngetracking perubahan dari file lain
+"start": "nodemon -w server server.js"
