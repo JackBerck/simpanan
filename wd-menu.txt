@@ -1,0 +1,135 @@
+bagian menu
+PILIHAN MENU
+-------------
+Menu Teratas
+Makanan Pembuka Nusantara
+1. Sate Ayam
+   Rp 20.000
+   Potongan daging ayam yang dipanggang dengan bumbu rempah khas, disajikan dengan saus kacang yang lezat.
+
+2. Lemper
+   Rp 20.000
+   Makanan tradisional berupa ketan yang dibungkus dengan daging ayam yang lezat, memberikan cita rasa yang gurih.
+
+3. Otak-Otak
+   Rp 20.000
+   Campuran ikan segar dan rempah-rempah yang dibungkus dalam daun pisang, dipanggang hingga matang, memberikan cita rasa yang unik dan lezat.
+
+4. Pangsit Goreng
+   Rp 20.000
+   Pangsit isi daging cincang yang digoreng garing, disajikan dengan saus sambal yang pedas.
+
+5. Sup Buntut
+   Rp 20.000
+   Sup khas Indonesia dengan potongan buntut sapi yang empuk, disajikan dengan kuah kaldu yang gurih.
+
+6. Martabak Telur
+   Rp 20.000
+   Martabak isi telur, daging cincang, dan bumbu rempah, digoreng hingga kecokelatan, memberikan cita rasa yang lezat dan mengenyangkan.
+
+7. Rujak
+   Rp 20.000
+   Campuran buah segar yang dipotong dadu, disajikan dengan bumbu rujak yang pedas dan gurih, menciptakan perpaduan rasa yang menyegarkan.
+
+8. Perkedel Jagung
+   Rp 20.000
+   Perkedel jagung yang renyah di luar dan lembut di dalam, disajikan dengan sambal tomat yang segar.
+-------------
+Sayur
+
+Gado-Gado
+Rp 20.000
+Campuran sayuran segar seperti kacang panjang, kentang, tauge, dan lontong, disajikan dengan saus kacang yang khas.
+
+Sayur Lodeh
+Rp 20.000
+Sayuran seperti labu siam, kacang panjang, dan terong direbus dalam santan dan bumbu rempah yang lezat.
+
+Karedok
+Rp 20.000
+Sayuran mentah seperti kacang panjang, kol, dan tauge disajikan dengan bumbu kacang pedas khas Sunda.
+
+Asinan Sayur
+Rp 20.000
+Sayuran segar seperti kol, mentimun, dan tauge direndam dalam air asam segar yang menyegarkan.
+
+Pecel
+Rp 20.000
+Sayuran seperti kacang panjang, kangkung, dan tauge disajikan dengan sambal kacang yang pedas dan gurih.
+
+Sayur Asem
+Rp 20.000
+Sayuran seperti kacang panjang, melinjo, dan terong direbus dalam kuah asam yang segar dan pedas.
+
+Sayur Bayam
+Rp 20.000
+Bayam segar yang direbus dan disajikan dengan santan dan bumbu rempah yang khas.
+----------
+Ikan & Daging
+
+Pepes Ikan
+Rp 100.000
+Potongan ikan yang dibumbui dengan rempah khas, dibungkus dalam daun pisang dan dikukus hingga matang sempurna.
+
+Rendang Daging
+Rp 100.000
+Potongan daging sapi yang dimasak dalam santan dan rempah-rempah yang kaya, menghasilkan cita rasa gurih dan pedas yang khas.
+
+Ikan Bakar
+Rp 100.000
+Ikan segar yang dipanggang dengan bumbu rempah tradisional, memberikan cita rasa yang kaya dan lezat.
+
+Sate Ayam
+Rp 100.000
+Potongan daging ayam yang ditusuk dan dipanggang dengan bumbu kacang khas Indonesia, disajikan dengan bawang goreng dan lontong.
+
+Ayam Goreng Kalasan
+Rp 100.000
+Potongan ayam yang digoreng hingga kecokelatan dengan bumbu rempah khas Jawa, memberikan cita rasa yang renyah dan gurih.
+
+Gulai Ikan Patin
+Rp 100.000
+Potongan ikan patin yang dimasak dalam kuah gulai kaya rempah, memberikan sensasi rasa yang lezat dan menggugah selera.
+
+Soto Ayam
+Rp 100.000
+Sup ayam khas Indonesia dengan tambahan bumbu rempah yang kaya, disajikan dengan nasi, tauge, dan emping.
+
+Pecel Lele
+Rp 100.000
+Lele goreng yang disajikan dengan sambal kacang pedas, disertai dengan lalapan dan nasi putih.
+-----------
+Minuman
+Es Kelapa Muda
+Rp 100.000
+Minuman segar dari air kelapa muda yang ditambahkan potongan daging kelapanya, memberikan rasa segar alami.
+
+Kopi Tubruk
+Rp 100.000
+Kopi khas Indonesia dengan bubuk kopi dan gula yang diseduh langsung dalam gelas, memberikan cita rasa khas yang kuat dan pekat.
+
+Es Teh Manis
+Rp 100.000
+Minuman teh manis dengan es batu, memberikan kesegaran dan kesegaran saat cuaca panas.
+
+Es Cendol
+Rp 100.000
+Minuman tradisional dengan campuran tepung beras, santan, gula merah cair, dan es serut, memberikan sensasi rasa yang manis dan segar.
+
+Es Jeruk Kunci
+Rp 100.000
+Minuman segar dari perasan jeruk kunci yang ditambahkan air dan es batu, memberikan rasa asam segar yang unik.
+
+Es Campur
+Rp 100.000
+Minuman segar dengan campuran buah, agar-agar, kolang-kaling, dan sirup, memberikan sensasi rasa yang manis dan segar.
+
+Wedang Jahe
+Rp 100.000
+Minuman tradisional dengan campuran jahe, gula merah, dan rempah-rempah, memberikan sensasi hangat dan menyegarkan.
+
+Es Teler
+Rp 100.000
+Minuman segar dengan campuran potongan buah, alpukat, kelapa muda, dan es serut, disajikan dengan susu kental manis, menciptakan sensasi rasa yang unik dan menyegarkan.
+----------
+Deserts Dihapus
